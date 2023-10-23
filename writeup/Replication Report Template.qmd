@@ -1,5 +1,5 @@
 ---
-title: "Replication of Homo Silicus Study by John Horton (Work in progress)"
+title: "Reproducibility Report for Homo Silicus Study by John Horton (Work in progress)"
 author: "Joon Sung Park (joonspk@stanford.edu)"
 date: "October 8, 2023"
 format:
@@ -8,17 +8,47 @@ format:
     toc_depth: 3
 ---
 
-
-
-<!-- Replication reports should all use this template to standardize reporting across projects.  These reports will be public supplementary materials that accompany the summary report(s) of the aggregate results. -->
+<!-- Reproducibility reports should all use this template to standardize reporting across projects. These reports will be public supplementary materials that accompany the summary report(s) of the aggregate results. -->
 
 ## Introduction
-
 Many important theories in social science and policy design, such as the evolution of norms and the effects of policy interventions on a community, cannot be tested directly due to practical challenges of conducting large-scale longitudinal studies [1, 2, 3]. In response, one promising modern solution I have observed is the use of large language models to create proxies of human participants. This allows us to simulate the outcomes of studies that would otherwise be impossible to conduct. In my research program at the intersection of human-computer interaction and natural language processing, I have introduced methods to simulate general computational agents, known as generative agents [3, 4]. These agents leverage a large language model within a novel agent cognitive architecture to produce human-like behaviors at both the individual and group levels (e.g., user behaviors in online social media, NPC behaviors in Sims-inspired games). My current research interest focuses on demonstrating these agents as a scientific tool that can help us address many of the challenges in the social sciences that are best suited to being answered using simulations of human behavior.
 
 In this replication study, I will delve into John Horton’s paper, “Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?”, which replicates existing social science experiments using large language models as proxies for human participants [5]. Horton’s work is among the notable early works [3, 4, 5, 9, 10] that aim to leverage the power of language models to simulate human participants in behavioral experiments. In his study, he replicates the findings of three experiments derived from Charness and Rabin (2002) [6], Kahneman, Knetsch, and Thaler (1986) [7], and Samuelson and Zeckhauser (1988) [8] by prompting a large language model. He finds that the language model-simulated participants, achieved by prompting the language model with a description of the study and then querying how it might behave in such an experiment, roughly matched the behavior of human subjects. My goal is to replicate Horton’s findings from all three experiments that he used.
 
-However, in formulating large language models as a method for simulating social science experiments, I have noticed three important challenges that remain unaddressed in this emerging field: 1) ensuring the robustness of the simulated outcomes across different models and minor changes in the prompt, 2) understanding the population we are representing in our simulated outcomes, and 3) the challenges of benchmarking language model-simulated outcomes against published experiments that may be known to the model. In this replication study, I aim to extend Horton’s replication study to better understand the first of the three challenges I listed above 1) by replicating his results using variations of prompts that have semantic meaning in describing the experiments but are worded differently, and 2) by benchmarking different versions of large language models. The robustness of the results here, based on the changes in the model and prompt, is particularly important to ensure the replicability of the findings generated using a large language model.
+### Justification for choice of study
+While large language model-based simulations offer an important new avenue for future studies, we are still in the early stages of developing them as a scientific method. Therefore, the best research and reporting practices for ensuring the replicability and robustness of the results are actively being developed. This makes the task of replicating existing large language model-based studies particularly interesting and important, as doing so will help us better understand the strengths and challenges of using language models for social scientific discovery, upon which we can build. In particular, I see three important challenges that remain unaddressed in this emerging field:
+
+1. Ensuring the robustness of the simulated outcomes given minor changes in the prompt and across different models, especially considering that many of the closed language models accessible through APIs may be changing without informing users. 
+2. Understanding the population we are representing in our simulated outcomes. 
+3. The challenges of benchmarking language model-simulated outcomes against published experiments that may be known to the model.
+
+Continued efforts in replicating and refining research in the field of large language model-based studies may help us better understand the extent of these challenges and how to address them.
+
+### Anticipated challenges
+The challenges in replicating Horton's study are indicative of the broader, more general challenge I mentioned earlier. In this replication study, I am specifically focusing on the first challenge I previously mentioned, as it represents what could be considered the fundamental aspect of large language model-based approaches. It raises the question: Can we produce replicable results when using the same setup?  I aim to expand upon Horton's replication study to gain a better understanding of the first challenge I listed previously 1) by reproducing his results using variations of prompts that convey semantic meaning to describe the experiments but are phrased differently, and 2) by comparing different versions of large language models. Ensuring the robustness of the results, especially in light of changes in both the model and prompt, is particularly crucial for ensuring the replicability of findings generated using a large language model.
+
+### Links
+
+Project repository (on Github): https://github.com/psych251/horton2023
+
+Original paper (as hosted in your repo): https://github.com/psych251/horton2023/blob/main/original_paper/horton_homo_silicus.pdf
+
+## Methods
+The overarching strategy for the large language model-based studies we are attempting to replicate involves describing well-known social science experiments in natural language scenarios. We then prompt a language model to answer the question, "If you were a participant, how would you behave in this scenario?" We aim to replicate three well-known social scientific experiments previously studied by Horton: Charness and Rabin (2002) [6], Kahneman, Knetsch, and Thaler (1986) [7], and Samuelson and Zeckhauser (1988) [8].
+
+### Description of the steps required to reproduce the results
+Horton described the three studies in natural language to make them understandable for a language model. For each experiment, he introduced an additional variable that characterizes the participants' persona in the context of the study being replicated. For instance, in the case of Kahneman et al.'s (1986) study [7], where subjects were presented with a series of market scenarios to assess intuitions about fairness in market contexts, he presented the study as follows: "A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $20. Please rate this action as: 1) Completely Fair 2) Acceptable 3) Unfair 4) Very Unfair"
+
+Horton then prompted the language model to predict how a person of a particular political leaning (e.g., socialist, libertarian) might respond to the prompt. He compared the language model's simulated outcome to the reported outcome in the published study, which indicated that with a price increase to $20, 82% of participants found it in some way "unacceptable."
+
+In his study, Horton found that only moderates and libertarians considered this price increase acceptable according to the language model simulation. Based on this, assuming that Kahneman et al. (1986)'s study employed a nationally representative sample in the original study, and considering that only about 37% of Americans described themselves as "moderate" in 2021, Horton concluded that the language model estimate would be an underestimate when compared to the original finding of 82% finding it in some way "unacceptable."
+
+My baseline replication will involve using the prompts and participants' personas as described in Horton's study if those prompts are available. However, I have noticed that not all prompts are precisely described in the report. In such cases, I will create a prompt myself in order to replicate the reported results. Additionally, I will employ the same large language model (GPT-3 text-davinci-003) and hyperparameters that were used in Horton's study.
+
+### Differences from original study
+There are two main aspects that differ, at least to some extent, between my replication and Horton's original study: the prompt and the model version. Regarding the prompt, while I do not expect significant differences, there may be some discrepancies that arise as I fill in the gaps, given that some of the precise prompts used to generate the findings were not shared in the original report. Concerning the model, the difference mainly arises from the fact that centrally hosted language models, such as GPT-3 accessible through APIs, are not static but continually changing, sometimes without the knowledge of end users. Therefore, I would anticipate that the model accessible today will be different in some subtle or major way compared to the one used by Horton in his original study.
+
+Given these differences, the challenge lies in understanding the extent to which these variances impact the final outcome of the study. Do subtle differences in the prompt and the model alter the study's outcome, or do the outcomes remain relatively stable regardless of the specifics of the prompt and the model used? To address this question, I will expand my replication study to create and test several variations of the prompts I will be using. Additionally, I will employ an additional model, GPT-4, to assess the impact of more controlled changes in the prompt and the model on the study's outcome.
 
 
 ## Work Cited
@@ -33,82 +63,3 @@ However, in formulating large language models as a method for simulating social 
 [8] Samuelson, William and Richard Zeckhauser, “Status quo bias in decision making,” Journal of risk and uncertainty, 1988, 1 (1), 7–59 <br>
 [9] Lisa P Argyle, Ethan C Busby, Nancy Fulda, Joshua R Gubler, Christopher Rytting, David Wingate. Out of one, many: Using language models to simulate human samples. Political Analysis (2023) <br>
 [10] Marcel Binz and Eric Schulz. Using cognitive psychology to understand GPT-3. PNAS (2023) <br>
-
-
-<!-- ## Methods -->
-
-<!-- ### Power Analysis -->
-
-<!-- Original effect size, power analysis for samples to achieve 80%, 90%, 95% power to detect that effect size.  Considerations of feasibility for selecting planned sample size. -->
-
-<!-- ### Planned Sample -->
-
-<!-- Planned sample size and/or termination rule, sampling frame, known demographics if any, preselection rules if any. -->
-
-<!-- ### Materials -->
-
-<!-- All materials - can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article. -->
-
-<!-- ### Procedure	 -->
-
-<!-- Can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article. -->
-
-<!-- ### Analysis Plan -->
-
-<!-- Can also quote directly, though it is less often spelled out effectively for an analysis strategy section.  The key is to report an analysis strategy that is as close to the original - data cleaning rules, data exclusion rules, covariates, etc. - as possible.   -->
-
-<!-- **Clarify key analysis of interest here**  You can also pre-specify additional analyses you plan to do. -->
-
-<!-- ### Differences from Original Study -->
-
-<!-- Explicitly describe known differences in sample, setting, procedure, and analysis plan from original study.  The goal, of course, is to minimize those differences, but differences will inevitably occur.  Also, note whether such differences are anticipated to make a difference based on claims in the original article or subsequent published research on the conditions for obtaining the effect. -->
-
-<!-- ### Methods Addendum (Post Data Collection) -->
-
-<!-- You can comment this section out prior to final report with data collection. -->
-
-<!-- #### Actual Sample -->
-<!--   Sample size, demographics, data exclusions based on rules spelled out in analysis plan -->
-
-<!-- #### Differences from pre-data collection methods plan -->
-<!--   Any differences from what was described as the original plan, or “none”. -->
-
-
-<!-- ## Results -->
-
-
-<!-- ### Data preparation -->
-
-<!-- Data preparation following the analysis plan. -->
-
-<!-- ```{r include=F} -->
-<!-- ### Data Preparation -->
-
-<!-- #### Load Relevant Libraries and Functions -->
-
-<!-- #### Import data -->
-
-<!-- #### Data exclusion / filtering -->
-
-<!-- #### Prepare data for analysis - create columns etc. -->
-<!-- ``` -->
-
-<!-- ### Confirmatory analysis -->
-
-<!-- The analyses as specified in the analysis plan.   -->
-
-<!-- *Side-by-side graph with original graph is ideal here* -->
-
-<!-- ### Exploratory analyses -->
-
-<!-- Any follow-up analyses desired (not required).   -->
-
-<!-- ## Discussion -->
-
-<!-- ### Summary of Replication Attempt -->
-
-<!-- Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.   -->
-
-<!-- ### Commentary -->
-
-<!-- Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt.  None of these need to be long. -->
