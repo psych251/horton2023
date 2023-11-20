@@ -1,3 +1,6 @@
+*DS_Store
+*utils.py
+
 # History files
 .Rhistory
 .Rapp.history
