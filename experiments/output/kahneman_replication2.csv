@@ -1,0 +1,477 @@
+socialist,$16,changes the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{ ""rating"": ""Acceptable"" }"
+socialist,$16,changes the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Unfair"" }"
+socialist,$16,changes the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Very Unfair'}"
+socialist,$16,changes the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{
+  ""rating"": ""Unfair""
+}"
+socialist,$16,raises the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{""rating"": ""Unfair""}"
+socialist,$16,raises the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Unfair"" }"
+socialist,$16,raises the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Unfair'}"
+socialist,$16,raises the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,{rating: 'Unfair'}
+socialist,$20,changes the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{ ""rating"": ""Unfair"" }"
+socialist,$20,changes the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Unfair"" }"
+socialist,$20,changes the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Unfair'}"
+socialist,$20,changes the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{
+""rating"": ""Very Unfair""
+}"
+socialist,$20,raises the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{""rating"": ""Unfair""}"
+socialist,$20,raises the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Unfair"" }"
+socialist,$20,raises the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Unfair'} "
+socialist,$20,raises the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{rating: ""Unfair""}"
+socialist,$40,changes the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{""rating"": ""Very Unfair""}"
+socialist,$40,changes the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Very Unfair"" }"
+socialist,$40,changes the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Very Unfair'}"
+socialist,$40,changes the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{rating: ""Very Unfair""}"
+socialist,$40,raises the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{""rating"": ""Very Unfair""}"
+socialist,$40,raises the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Unfair"" }"
+socialist,$40,raises the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3," 
+
+Unfair"
+socialist,$40,raises the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{
+""rating"": ""Very Unfair""
+}"
+socialist,$100,changes the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{""rating"": ""Unfair""}"
+socialist,$100,changes the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Very Unfair"" }"
+socialist,$100,changes the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Very Unfair'}"
+socialist,$100,changes the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{rating: ""Unfair""}"
+socialist,$100,raises the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{""rating"": ""Very Unfair""}"
+socialist,$100,raises the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Very Unfair"" }"
+socialist,$100,raises the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{""rating"": ""Very Unfair""}"
+socialist,$100,raises the price to,"You are a socialist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{
+  rating: ""Very Unfair""
+}"
+leftist,$16,changes the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{""rating"": ""Unfair""}"
+leftist,$16,changes the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Unfair"" }"
+leftist,$16,changes the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Unfair'}"
+leftist,$16,changes the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{rating: ""Unfair""}"
+leftist,$16,raises the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{""rating"": ""Unfair""}"
+leftist,$16,raises the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{""rating"": ""Unfair""}"
+leftist,$16,raises the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Unfair'}"
+leftist,$16,raises the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,{rating: 'Very Unfair'}
+leftist,$20,changes the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{ ""rating"": ""Unfair"" }"
+leftist,$20,changes the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Unfair"" }"
+leftist,$20,changes the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Very Unfair'}"
+leftist,$20,changes the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"```json
+{rating: ""Unfair""}
+```
+This action is unfair because it involves raising the price of a product that was already purchased by customers, without providing any additional value or justification for the increase. This could be seen as an attempt to profit off of the sudden demand for snow shovels after a large snowstorm, which is not ethical."
+leftist,$20,raises the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{
+  ""rating"": ""Very Unfair""
+}"
+leftist,$20,raises the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Unfair"" }"
+leftist,$20,raises the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Very Unfair'}"
+leftist,$20,raises the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{rating: ""Unfair""}"
+leftist,$40,changes the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{""rating"": ""Unfair""}"
+leftist,$40,changes the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Unfair"" }"
+leftist,$40,changes the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Very Unfair'}"
+leftist,$40,changes the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,{rating: 'Very Unfair'}
+leftist,$40,raises the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{""rating"": ""Unfair""}"
+leftist,$40,raises the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Very Unfair"" }"
+leftist,$40,raises the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Very Unfair'}"
+leftist,$40,raises the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{
+""rating"": ""Very Unfair""
+}"
+leftist,$100,changes the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{ ""rating"": ""Unfair"" }"
+leftist,$100,changes the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Very Unfair"" }"
+leftist,$100,changes the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Unfair'}"
+leftist,$100,changes the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,{rating: 'Very Unfair'}
+leftist,$100,raises the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{""rating"": ""Very Unfair""}"
+leftist,$100,raises the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Very Unfair"" }"
+leftist,$100,raises the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Very Unfair'}"
+leftist,$100,raises the price to,"You are a leftist. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{
+""rating"": ""Very Unfair""
+}"
+liberal,$16,changes the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{ ""rating"": ""Acceptable"" }"
+liberal,$16,changes the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Unfair"" }"
+liberal,$16,changes the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Very Unfair'}"
+liberal,$16,changes the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{
+  rating: ""Unfair""
+}"
+liberal,$16,raises the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{""rating"": ""Unfair""}"
+liberal,$16,raises the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Unfair"" }"
+liberal,$16,raises the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Very Unfair'} "
+liberal,$16,raises the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{
+  ""rating"": ""Unfair""
+}"
+liberal,$20,changes the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{ ""rating"": ""Unfair"" }"
+liberal,$20,changes the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Unfair"" }"
+liberal,$20,changes the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Very Unfair'}"
+liberal,$20,changes the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{rating: ""Unfair""}"
+liberal,$20,raises the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{""rating"": ""Unfair""}"
+liberal,$20,raises the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Unfair"" }"
+liberal,$20,raises the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Very Unfair'}"
+liberal,$20,raises the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{rating: ""Unfair""}"
+liberal,$40,changes the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{ ""rating"": ""Very Unfair"" }"
+liberal,$40,changes the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Unfair"" }"
+liberal,$40,changes the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Unfair'}"
+liberal,$40,changes the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,{rating: 'Very Unfair'}
+liberal,$40,raises the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{ ""rating"": ""Unfair"" }"
+liberal,$40,raises the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Unfair"" }"
+liberal,$40,raises the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Very Unfair'}"
+liberal,$40,raises the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{rating: ""Unfair""}"
+liberal,$100,changes the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{ ""rating"": ""Very Unfair"" }"
+liberal,$100,changes the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Very Unfair"" }"
+liberal,$100,changes the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3," 
+
+{rating: 'Very Unfair'}"
+liberal,$100,changes the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{rating: ""Very Unfair""}"
+liberal,$100,raises the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{ ""rating"": ""Very Unfair"" }"
+liberal,$100,raises the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Very Unfair"" }"
+liberal,$100,raises the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Very Unfair'}"
+liberal,$100,raises the price to,"You are a liberal. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{
+""rating"": ""Very Unfair""
+}"
+moderate,$16,changes the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{ ""rating"": ""Acceptable"" }"
+moderate,$16,changes the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Acceptable"" }"
+moderate,$16,changes the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Acceptable'}"
+moderate,$16,changes the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{
+""rating"": ""Unfair""
+}"
+moderate,$16,raises the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{ ""rating"": ""Acceptable"" }"
+moderate,$16,raises the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Acceptable"" }"
+moderate,$16,raises the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Unfair'}"
+moderate,$16,raises the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{
+""rating"": ""Unfair""
+}"
+moderate,$20,changes the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{ ""rating"": ""Acceptable"" }"
+moderate,$20,changes the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Unfair"" }"
+moderate,$20,changes the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Unfair'}"
+moderate,$20,changes the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{
+""rating"": ""Very Unfair""
+}"
+moderate,$20,raises the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{""rating"": ""Very Unfair""}"
+moderate,$20,raises the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Unfair"" }"
+moderate,$20,raises the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Unfair'}"
+moderate,$20,raises the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{
+""rating"": ""Unfair""
+}"
+moderate,$40,changes the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{""rating"": ""Very Unfair""}"
+moderate,$40,changes the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Unfair"" }"
+moderate,$40,changes the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{
+    ""rating"": ""Unfair""
+}"
+moderate,$40,changes the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{rating: ""Unfair""}"
+moderate,$40,raises the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{""rating"": ""Very Unfair""}"
+moderate,$40,raises the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Unfair"" }"
+moderate,$40,raises the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Very Unfair'}"
+moderate,$40,raises the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{
+  ""rating"": ""Unfair""
+}"
+moderate,$100,changes the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{""rating"": ""Acceptable""}"
+moderate,$100,changes the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Unfair"" }"
+moderate,$100,changes the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Unfair'}"
+moderate,$100,changes the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{rating: ""Very Unfair""}"
+moderate,$100,raises the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{ ""rating"": ""Very Unfair"" }"
+moderate,$100,raises the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Unfair"" }"
+moderate,$100,raises the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Unfair'}"
+moderate,$100,raises the price to,"You are a moderate. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{rating: ""Unfair""}"
+conservative,$16,changes the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{ ""rating"": ""Acceptable"" }"
+conservative,$16,changes the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Acceptable"" }"
+conservative,$16,changes the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Acceptable'}"
+conservative,$16,changes the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{rating: ""Unfair""}"
+conservative,$16,raises the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{""rating"": ""Acceptable""}"
+conservative,$16,raises the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Acceptable"" }"
+conservative,$16,raises the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Unfair'}"
+conservative,$16,raises the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{rating: ""Unfair""}"
+conservative,$20,changes the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{ ""rating"": ""Acceptable"" }"
+conservative,$20,changes the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Acceptable"" }"
+conservative,$20,changes the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+{""rating"": ""Unfair""}"
+conservative,$20,changes the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{
+""rating"": ""Very Unfair""
+}"
+conservative,$20,raises the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{ ""rating"": ""Acceptable"" }"
+conservative,$20,raises the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Acceptable"" }"
+conservative,$20,raises the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Unfair'}"
+conservative,$20,raises the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{
+""rating"": ""Unfair""
+}"
+conservative,$40,changes the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{""rating"": ""Acceptable""}"
+conservative,$40,changes the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Unfair"" }"
+conservative,$40,changes the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Very Unfair'}"
+conservative,$40,changes the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{rating: ""Unfair""}"
+conservative,$40,raises the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{ ""rating"": ""Unfair"" }"
+conservative,$40,raises the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Acceptable"" }"
+conservative,$40,raises the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Unfair'}"
+conservative,$40,raises the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $40. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{
+""rating"": ""Unfair""
+}"
+conservative,$100,changes the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{ ""rating"": ""Unfair"" }"
+conservative,$100,changes the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Unfair"" }"
+conservative,$100,changes the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Unfair'}"
+conservative,$100,changes the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{rating: ""Very Unfair""}"
+conservative,$100,raises the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{ ""rating"": ""Unfair"" }"
+conservative,$100,raises the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Unfair"" }"
+conservative,$100,raises the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+{rating: 'Very Unfair'}"
+conservative,$100,raises the price to,"You are a conservative. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $100. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{rating: ""Very Unfair""}"
+liberterian,$16,changes the price to,"You are a liberterian. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{ ""rating"": ""Acceptable"" }"
+liberterian,$16,changes the price to,"You are a liberterian. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Acceptable"" }"
+liberterian,$16,changes the price to,"You are a liberterian. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{
+  ""rating"": ""Acceptable""
+}"
+liberterian,$16,changes the price to,"You are a liberterian. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,"{
+rating: ""Unfair""
+}"
+liberterian,$16,raises the price to,"You are a liberterian. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{""rating"": ""Acceptable""}"
+liberterian,$16,raises the price to,"You are a liberterian. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Acceptable"" }"
+liberterian,$16,raises the price to,"You are a liberterian. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Acceptable'}"
+liberterian,$16,raises the price to,"You are a liberterian. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $16. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,{rating: 'Unfair'}
+liberterian,$20,changes the price to,"You are a liberterian. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{ ""rating"": ""Acceptable"" }"
+liberterian,$20,changes the price to,"You are a liberterian. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Acceptable"" }"
+liberterian,$20,changes the price to,"You are a liberterian. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT3,"
+
+{rating: 'Acceptable'}"
+liberterian,$20,changes the price to,"You are a liberterian. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store changes the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",mistral,{rating: 'Unfair'}
+liberterian,$20,raises the price to,"You are a liberterian. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",ChatGPT,"{""rating"": ""Acceptable""}"
+liberterian,$20,raises the price to,"You are a liberterian. A hardware store has been selling snow shovels for $15. The morning after a large snowstorm, the store raises the price to $20. Please rate this action with one of the following ratings: 'Acceptable', 'Unfair', 'Very Unfair'
+output json format: {rating: '<rating>'}",GPT4,"{ ""rating"": ""Acceptable"" }"

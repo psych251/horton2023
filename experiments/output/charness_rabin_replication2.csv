@@ -1,0 +1,266 @@
+,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400","Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400
+output json format: {option: '<option>'}",ChatGPT,"{""option"": ""Option 2""}"
+,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400","Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400
+output json format: {option: '<option>'}",GPT4,"{ ""option"": ""Option 2"" }"
+,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400","Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400
+output json format: {option: '<option>'}",GPT3," 
+
+{option: 'Option 2'}"
+,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400","Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400
+output json format: {option: '<option>'}",mistral,"{option: ""Option 2: Person B gets $750 and Person A gets $400""}"
+,"Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400","Of the following two options, which one would you prefer? Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400
+output json format: {option: '<option>'}",ChatGPT,"{""option"": ""Option 1""}"
+,"Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400","Of the following two options, which one would you prefer? Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400
+output json format: {option: '<option>'}",GPT4,"{""option"": ""Option 2: Person B gets $400 and Person A gets $400""}"
+,"Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400","Of the following two options, which one would you prefer? Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400
+output json format: {option: '<option>'}",GPT3,"
+
+{option: 'Option 2'}"
+,"Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400","Of the following two options, which one would you prefer? Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400
+output json format: {option: '<option>'}",mistral,"{
+""option"": ""Option 1: Person B gets $0 and Person A gets $800""
+}"
+,"Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0","Of the following two options, which one would you prefer? Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0
+output json format: {option: '<option>'}",ChatGPT,"{""option"": ""Option 1""}"
+,"Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0","Of the following two options, which one would you prefer? Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0
+output json format: {option: '<option>'}",GPT4,"{ ""option"": ""Option 1""}"
+,"Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0","Of the following two options, which one would you prefer? Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0
+output json format: {option: '<option>'}",GPT3," where <option> is either 1 or 2
+
+{""option"": ""1""}"
+,"Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0","Of the following two options, which one would you prefer? Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0
+output json format: {option: '<option>'}",mistral,"{option: ""Option 1: Person B gets $800 and Person A gets $200""}"
+,"Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600","Of the following two options, which one would you prefer? Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600
+output json format: {option: '<option>'}",ChatGPT,"{""option"": ""Option 1""}"
+,"Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600","Of the following two options, which one would you prefer? Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600
+output json format: {option: '<option>'}",GPT4,"{""option"": ""Option 1: Person B gets $200 and Person A gets $700""}"
+,"Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600","Of the following two options, which one would you prefer? Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600
+output json format: {option: '<option>'}",GPT3," 
+
+Option: 2"
+,"Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600","Of the following two options, which one would you prefer? Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600
+output json format: {option: '<option>'}",mistral,"Option 1: {option: ""Person B gets $200 and Person A gets $700""}"
+,"Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700","Of the following two options, which one would you prefer? Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700
+output json format: {option: '<option>'}",ChatGPT,"{""option"": ""Option 2""}"
+,"Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700","Of the following two options, which one would you prefer? Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700
+output json format: {option: '<option>'}",GPT4,"{""option"": ""Option 2""}"
+,"Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700","Of the following two options, which one would you prefer? Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700
+output json format: {option: '<option>'}",GPT3," 
+
+{option: 'Option 2'} "
+,"Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700","Of the following two options, which one would you prefer? Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700
+output json format: {option: '<option>'}",mistral,"
+Option: 1"
+,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375","Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375
+output json format: {option: '<option>'}",ChatGPT,"{ ""option"": ""Option 2"" }"
+,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375","Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375
+output json format: {option: '<option>'}",GPT4,"{""option"": ""Option 1""}"
+,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375","Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375
+output json format: {option: '<option>'}",GPT3,"
+{option: 'Option 2'}"
+,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375","Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375
+output json format: {option: '<option>'}",mistral,"{option: ""Option 2: Person B gets $750 and Person A gets $375""}"
+You only care about fairness between players. ,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400","You only care about fairness between players. Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400
+output json format: {option: '<option>'}",ChatGPT,"{ ""option"": ""Option 1"" }"
+You only care about fairness between players. ,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400","You only care about fairness between players. Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400
+output json format: {option: '<option>'}",GPT4,"{ ""option"": ""Option 1"" }"
+You only care about fairness between players. ,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400","You only care about fairness between players. Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400
+output json format: {option: '<option>'}",GPT3," 
+
+{option: 'Option 1: Person B gets $400 and Person A gets $400'}"
+You only care about fairness between players. ,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400","You only care about fairness between players. Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400
+output json format: {option: '<option>'}",mistral,"{option: ""Option 1""}."
+You only care about fairness between players. ,"Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400","You only care about fairness between players. Of the following two options, which one would you prefer? Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400
+output json format: {option: '<option>'}",ChatGPT,"{""option"": ""Option 2""}"
+You only care about fairness between players. ,"Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400","You only care about fairness between players. Of the following two options, which one would you prefer? Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400
+output json format: {option: '<option>'}",GPT4,"{""option"": ""Option 2""}"
+You only care about fairness between players. ,"Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400","You only care about fairness between players. Of the following two options, which one would you prefer? Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400
+output json format: {option: '<option>'}",GPT3,"
+
+{option: 'Option 2'}"
+You only care about fairness between players. ,"Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400","You only care about fairness between players. Of the following two options, which one would you prefer? Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400
+output json format: {option: '<option>'}",mistral,"{
+""option"": ""Option 2: Person B gets $400 and Person A gets $400""
+}"
+You only care about fairness between players. ,"Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0","You only care about fairness between players. Of the following two options, which one would you prefer? Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0
+output json format: {option: '<option>'}",ChatGPT,"{""option"": ""Option 2: Person B gets $0 and Person A gets $0""}"
+You only care about fairness between players. ,"Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0","You only care about fairness between players. Of the following two options, which one would you prefer? Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0
+output json format: {option: '<option>'}",GPT4,"{ ""option"": ""Option 2"" }"
+You only care about fairness between players. ,"Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0","You only care about fairness between players. Of the following two options, which one would you prefer? Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0
+output json format: {option: '<option>'}",GPT3," 
+
+{option: 'Option 1'}"
+You only care about fairness between players. ,"Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0","You only care about fairness between players. Of the following two options, which one would you prefer? Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0
+output json format: {option: '<option>'}",mistral,"{option: ""Option 1""}: Person B gets $800 and Person A gets $200."
+You only care about fairness between players. ,"Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600","You only care about fairness between players. Of the following two options, which one would you prefer? Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600
+output json format: {option: '<option>'}",ChatGPT,"{
+  ""option"": ""Option 2""
+}"
+You only care about fairness between players. ,"Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600","You only care about fairness between players. Of the following two options, which one would you prefer? Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600
+output json format: {option: '<option>'}",GPT4,"{ ""option"": ""Option 2"" }"
+You only care about fairness between players. ,"Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600","You only care about fairness between players. Of the following two options, which one would you prefer? Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600
+output json format: {option: '<option>'}",GPT3,"
+{option: 'Option 2'}"
+You only care about fairness between players. ,"Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600","You only care about fairness between players. Of the following two options, which one would you prefer? Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600
+output json format: {option: '<option>'}",mistral,"{option: ""Option 2""}"
+You only care about fairness between players. ,"Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700","You only care about fairness between players. Of the following two options, which one would you prefer? Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700
+output json format: {option: '<option>'}",ChatGPT,"{ ""option"": ""Option 2"" }"
+You only care about fairness between players. ,"Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700","You only care about fairness between players. Of the following two options, which one would you prefer? Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700
+output json format: {option: '<option>'}",GPT4,"{ ""option"": ""Option 2"" }"
+You only care about fairness between players. ,"Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700","You only care about fairness between players. Of the following two options, which one would you prefer? Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700
+output json format: {option: '<option>'}",GPT3,"
+
+{option: 'Option 2'}"
+You only care about fairness between players. ,"Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700","You only care about fairness between players. Of the following two options, which one would you prefer? Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700
+output json format: {option: '<option>'}",mistral,"{option: ""Option 1""}."
+You only care about fairness between players. ,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375","You only care about fairness between players. Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375
+output json format: {option: '<option>'}",ChatGPT,"{""option"": ""Option 1""}"
+You only care about fairness between players. ,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375","You only care about fairness between players. Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375
+output json format: {option: '<option>'}",GPT4,"{ ""option"": ""Option 1"" }"
+You only care about fairness between players. ,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375","You only care about fairness between players. Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375
+output json format: {option: '<option>'}",GPT3,"
+{""option"": ""Option 1""}"
+You only care about fairness between players. ,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375","You only care about fairness between players. Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375
+output json format: {option: '<option>'}",mistral,"{
+""option"": ""Option 1: Person B gets $400 and Person A gets $400""
+}"
+You only care about the total payoff of both players. ,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400","You only care about the total payoff of both players. Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400
+output json format: {option: '<option>'}",ChatGPT,"{""option"": ""Option 2""}"
+You only care about the total payoff of both players. ,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400","You only care about the total payoff of both players. Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400
+output json format: {option: '<option>'}",GPT4,"{""option"": ""Option 2""}"
+You only care about the total payoff of both players. ,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400","You only care about the total payoff of both players. Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400
+output json format: {option: '<option>'}",GPT3," 
+
+{""option"":""Option 2""}"
+You only care about the total payoff of both players. ,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400","You only care about the total payoff of both players. Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400
+output json format: {option: '<option>'}",mistral,"{option: ""Option 2""}"
+You only care about the total payoff of both players. ,"Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400","You only care about the total payoff of both players. Of the following two options, which one would you prefer? Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400
+output json format: {option: '<option>'}",ChatGPT,"{""option"": ""Option 2""}"
+You only care about the total payoff of both players. ,"Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400","You only care about the total payoff of both players. Of the following two options, which one would you prefer? Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400
+output json format: {option: '<option>'}",GPT4,"{ ""option"": ""Option 2"" }"
+You only care about the total payoff of both players. ,"Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400","You only care about the total payoff of both players. Of the following two options, which one would you prefer? Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400
+output json format: {option: '<option>'}",GPT3,"
+
+{option: 'Option 2'}"
+You only care about the total payoff of both players. ,"Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400","You only care about the total payoff of both players. Of the following two options, which one would you prefer? Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400
+output json format: {option: '<option>'}",mistral,"{option: ""Option 1""}"
+You only care about the total payoff of both players. ,"Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0","You only care about the total payoff of both players. Of the following two options, which one would you prefer? Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0
+output json format: {option: '<option>'}",ChatGPT,"{""option"": ""Option 2""}"
+You only care about the total payoff of both players. ,"Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0","You only care about the total payoff of both players. Of the following two options, which one would you prefer? Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0
+output json format: {option: '<option>'}",GPT4,"{ ""option"": ""Option 1"" }"
+You only care about the total payoff of both players. ,"Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0","You only care about the total payoff of both players. Of the following two options, which one would you prefer? Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0
+output json format: {option: '<option>'}",GPT3,"
+
+{option: 'Option 1'}"
+You only care about the total payoff of both players. ,"Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0","You only care about the total payoff of both players. Of the following two options, which one would you prefer? Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0
+output json format: {option: '<option>'}",mistral,"{option: ""Option 1""}"
+You only care about the total payoff of both players. ,"Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600","You only care about the total payoff of both players. Of the following two options, which one would you prefer? Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600
+output json format: {option: '<option>'}",ChatGPT,"{""option"": ""Option 2""}"
+You only care about the total payoff of both players. ,"Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600","You only care about the total payoff of both players. Of the following two options, which one would you prefer? Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600
+output json format: {option: '<option>'}",GPT4,"{ ""option"": ""Option 1""}"
+You only care about the total payoff of both players. ,"Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600","You only care about the total payoff of both players. Of the following two options, which one would you prefer? Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600
+output json format: {option: '<option>'}",GPT3,"
+
+{option: 'Option 2'}"
+You only care about the total payoff of both players. ,"Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600","You only care about the total payoff of both players. Of the following two options, which one would you prefer? Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600
+output json format: {option: '<option>'}",mistral,{option: 1}
+You only care about the total payoff of both players. ,"Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700","You only care about the total payoff of both players. Of the following two options, which one would you prefer? Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700
+output json format: {option: '<option>'}",ChatGPT,"{""option"": ""Option 2""}"
+You only care about the total payoff of both players. ,"Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700","You only care about the total payoff of both players. Of the following two options, which one would you prefer? Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700
+output json format: {option: '<option>'}",GPT4,"{""option"": ""Option 2""}"
+You only care about the total payoff of both players. ,"Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700","You only care about the total payoff of both players. Of the following two options, which one would you prefer? Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700
+output json format: {option: '<option>'}",GPT3,"
+{option: 'Option 2'}"
+You only care about the total payoff of both players. ,"Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700","You only care about the total payoff of both players. Of the following two options, which one would you prefer? Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700
+output json format: {option: '<option>'}",mistral,"{
+""option"": ""Option 1""
+}"
+You only care about the total payoff of both players. ,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375","You only care about the total payoff of both players. Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375
+output json format: {option: '<option>'}",ChatGPT,"{ ""option"": ""Option 2"" }"
+You only care about the total payoff of both players. ,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375","You only care about the total payoff of both players. Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375
+output json format: {option: '<option>'}",GPT4,"{ ""option"": ""Option 1"" }"
+You only care about the total payoff of both players. ,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375","You only care about the total payoff of both players. Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375
+output json format: {option: '<option>'}",GPT3,"
+
+{option: 'Option 2'}"
+You only care about the total payoff of both players. ,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375","You only care about the total payoff of both players. Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375
+output json format: {option: '<option>'}",mistral,"{option: ""Option 2""}"
+You only care about your own payof. ,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400","You only care about your own payof. Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400
+output json format: {option: '<option>'}",ChatGPT,"{ ""option"": ""Option 2"" }"
+You only care about your own payof. ,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400","You only care about your own payof. Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400
+output json format: {option: '<option>'}",GPT4,"{""option"": ""Option 1 and Option 2""}"
+You only care about your own payof. ,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400","You only care about your own payof. Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400
+output json format: {option: '<option>'}",GPT3,"
+{""option"": ""Option 2""} "
+You only care about your own payof. ,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400","You only care about your own payof. Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $400
+output json format: {option: '<option>'}",mistral,"```json
+{
+    ""Option 1"": {
+        ""Person A"": 400,
+        ""Person B"": 400
+    },
+    ""Option 2"": {
+        ""Person A"": 400,
+        ""Person B"": 750
+    }
+}
+```"
+You only care about your own payof. ,"Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400","You only care about your own payof. Of the following two options, which one would you prefer? Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400
+output json format: {option: '<option>'}",ChatGPT,"{""option"": ""Option 2""}"
+You only care about your own payof. ,"Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400","You only care about your own payof. Of the following two options, which one would you prefer? Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400
+output json format: {option: '<option>'}",GPT4,"{ ""option"": ""Option 1"" }"
+You only care about your own payof. ,"Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400","You only care about your own payof. Of the following two options, which one would you prefer? Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400
+output json format: {option: '<option>'}",GPT3,"
+
+{option: 'Option 1'}"
+You only care about your own payof. ,"Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400","You only care about your own payof. Of the following two options, which one would you prefer? Option 1: Person B gets $0 and Person A gets $800, Option 2: Person B gets $400 and Person A gets $400
+output json format: {option: '<option>'}",mistral,"```json
+{
+  ""Option 1"": ""<Person B gets $0 and Person A gets $800>"",
+  ""Option 2"": ""<Person B gets $400 and Person A gets $400>""
+}
+```"
+You only care about your own payof. ,"Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0","You only care about your own payof. Of the following two options, which one would you prefer? Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0
+output json format: {option: '<option>'}",ChatGPT,"{""option"": ""Option 1""}"
+You only care about your own payof. ,"Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0","You only care about your own payof. Of the following two options, which one would you prefer? Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0
+output json format: {option: '<option>'}",GPT4,"{ ""option"": ""Option 1"" }"
+You only care about your own payof. ,"Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0","You only care about your own payof. Of the following two options, which one would you prefer? Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0
+output json format: {option: '<option>'}",GPT3,"
+{option: 'Option 1'}"
+You only care about your own payof. ,"Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0","You only care about your own payof. Of the following two options, which one would you prefer? Option 1: Person B gets $800 and Person A gets $200, Option 2: Person B gets $0 and Person A gets $0
+output json format: {option: '<option>'}",mistral,{option: 'Option 1'}
+You only care about your own payof. ,"Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600","You only care about your own payof. Of the following two options, which one would you prefer? Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600
+output json format: {option: '<option>'}",ChatGPT,"{""option"": ""Option 2""}"
+You only care about your own payof. ,"Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600","You only care about your own payof. Of the following two options, which one would you prefer? Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600
+output json format: {option: '<option>'}",GPT4,"{ ""option"": ""Option 1"" }"
+You only care about your own payof. ,"Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600","You only care about your own payof. Of the following two options, which one would you prefer? Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600
+output json format: {option: '<option>'}",GPT3,"
+
+{option: 'Option 2'}"
+You only care about your own payof. ,"Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600","You only care about your own payof. Of the following two options, which one would you prefer? Option 1: Person B gets $200 and Person A gets $700, Option 2: Person B gets $600 and Person A gets $600
+output json format: {option: '<option>'}",mistral,"{option: ""<option>Option 1</option>""}"
+You only care about your own payof. ,"Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700","You only care about your own payof. Of the following two options, which one would you prefer? Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700
+output json format: {option: '<option>'}",ChatGPT,"{""option"": ""Option 2""}"
+You only care about your own payof. ,"Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700","You only care about your own payof. Of the following two options, which one would you prefer? Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700
+output json format: {option: '<option>'}",GPT4,"{ ""option"": ""Option 2"" }"
+You only care about your own payof. ,"Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700","You only care about your own payof. Of the following two options, which one would you prefer? Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700
+output json format: {option: '<option>'}",GPT3,"
+
+{option: 'Option 2'} "
+You only care about your own payof. ,"Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700","You only care about your own payof. Of the following two options, which one would you prefer? Option 1: Person B gets $300 and Person A gets $600, Option 2: Person B gets $700 and Person A gets $700
+output json format: {option: '<option>'}",mistral,"{
+""Option 1"": ""<Person B gets $300 and Person A gets $600>"",
+""Option 2"": ""<Person B gets $700 and Person A gets $700>""
+}"
+You only care about your own payof. ,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375","You only care about your own payof. Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375
+output json format: {option: '<option>'}",ChatGPT,"{""option"": ""Option 2""}"
+You only care about your own payof. ,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375","You only care about your own payof. Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375
+output json format: {option: '<option>'}",GPT4,"{ ""option"": ""Option 1"" }"
+You only care about your own payof. ,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375","You only care about your own payof. Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375
+output json format: {option: '<option>'}",GPT3,"
+{option: 'Option 2'}"
+You only care about your own payof. ,"Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375","You only care about your own payof. Of the following two options, which one would you prefer? Option 1: Person B gets $400 and Person A gets $400, Option 2: Person B gets $750 and Person A gets $375
+output json format: {option: '<option>'}",mistral,"{
+""Option 1"": ""If I get paid $400 and person B also gets paid $400, that's a win-win for both of us."",
+""Option 2"": ""If I get paid $750 and person A only gets paid $375, I'm happy but person A is not.""
+}"

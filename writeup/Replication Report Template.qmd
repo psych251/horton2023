@@ -48,7 +48,7 @@ My baseline replication will involve using the prompts and participants' persona
 ### Differences from original study
 There are two main aspects that differ, at least to some extent, between my replication and Horton's original study: the prompt and the model version. Regarding the prompt, while I do not expect significant differences, there may be some discrepancies that arise as I fill in the gaps, given that some of the precise prompts used to generate the findings were not shared in the original report. Concerning the model, the difference mainly arises from the fact that centrally hosted language models, such as GPT-3 accessible through APIs, are not static but continually changing, sometimes without the knowledge of end users. Therefore, I would anticipate that the model accessible today will be different in some subtle or major way compared to the one used by Horton in his original study.
 
-Given these differences, the challenge lies in understanding the extent to which these variances impact the final outcome of the study. Do subtle differences in the prompt and the model alter the study's outcome, or do the outcomes remain relatively stable regardless of the specifics of the prompt and the model used? To address this question, I will expand my replication study to create and test syntactic variations of the prompts I will be using. Additionally, I will employ an additional model, GPT-4, to assess the impact of more controlled changes in the prompt and the model on the study's outcome.
+Given these variations, the challenge lies in comprehending the extent to which these discrepancies affect the ultimate results of the study. Do subtle distinctions in the model have an influence on the study's outcomes, or do the results remain relatively consistent regardless of the particulars of the prompt and the model used? To address this inquiry, I will broaden my replication study to examine how different models perform, aiming to assess the impact of more controlled modifications in the prompt and the model on the study's findings.
 
 ## Project Progress Check 1
 
@@ -61,9 +61,53 @@ I have set up separate measures of success for the two experiments based on Hort
 
 
 ### Pipeline progress
-The replication pipeline consists of two steps. The first step involves crafting the prompt and personas. In this phase, I will use Horton's work as the baseline and incorporate it verbatim, adding additional details to the prompts only where they are missing. In the second step, I will employ these resulting prompts and personas to prompt the language model and generate the agent's response.
+The replication process comprises two essential steps. The initial step involves crafting the prompt and personas. During this phase, I will use Horton's work as the foundation, incorporating it verbatim and only supplementing additional details to the prompts where they are absent. In the second step, I will utilize these refined prompts and personas to stimulate the language model and generate the agent's response. To assess the resilience of this methodology in the face of slight syntactic alterations and variations in the model version, I will implement the following two additional stages: To evaluate the impact of the model version, I will re-run the original base prompt using different, more recent models, specifically GPT-4 and Mistal, an open-source model.
 
-Then, to assess the robustness of this methodology in the face of slight syntactic changes in the prompt and variations in the model version, I will implement the following two additional steps: 1) I will generate a variation of the prompt by instructing the language model to "paraphrase" the original base prompt. This will yield an additional prompt with the same meaning but potentially in a slightly different syntactic form. I will then use this new prompt to rerun the experiment. 2) To evaluate the impact of the model version, I will rerun the original base prompt using a different, more recent model, specifically GPT-4.
+## Results
+In this section, we provide a summary of the outcomes from our replication study. Specifically, we present our reproductions of two studies that were examined in Horton's paper: the replication of the experiments detailed in Charness and Rabin (2002) [6] and Kahneman, Knetsch, and Thaler (1986) [7].
+
+
+### Data preparation
+Our codes for data preparation and analysis can be found in the "experiments" folder within our publicly accessible repository, as indicated by the provided link. Specifically, the "main.py" file contains all the essential code for executing the primary analysis and data preparation procedures, and its results are stored in an "output" folder. For functions designed to interact with and utilize language models, you can refer to the "gpt_structure" folder, which includes accompanying documentation.
+
+### Key analysis
+
+Overall, our analysis reveals that the findings from Horton's exploratory study generally replicate and exhibit similar trends. However, it's important to acknowledge differences attributable to variations in the model used. Notably, it's worth considering that the underlying models, especially those maintained by OpenAI, undergo continuous updates and safety improvements. Below, we provide an interpretation of our results for each of the two studies. For each study, we present both the original results figure reported by Horton and a table generated as part of our replication effort.
+
+
+#### Charness and Rabin (2002)
+
+![Figure 1. A comparison between the original findings reported in Horton's paper (above) and the results of our new replication study (below) for Charness and Rabin (2002). It is important to note that "?" is used to indicate cases in which our model declined to provide a definitive response, as it refrained from making human-like decisions, given its nature as an AI model.](figure1.png)
+
+Horton's original findings suggest that unless provided with a specific persona, AI agents tend to adopt the role of the social planner, prioritizing the maximization of their own payoffs. In essence, they consistently choose options that yield the highest monetary benefit for themselves. For example, when faced with a choice between two options – option 1: I receive $200, and the other receives $700, and option 2: I receive $600, and the other receives $600 – the agent selects the second option, which maximizes its personal gain. However, this behavior begins to shift when the agent is assigned an explicit persona that instructs it to consider fairness between players or the overall payoff for both participants.
+
+In our replication study, we observe that the models generally exhibit a tendency towards self-maximization when no prompts are provided. Notably, for GPT-4 and GPT-3, we notice a slight deviation in behavior once an explicit persona is introduced. In this regard, we can see that Horton's findings largely align with the observed trends in our replication. However, it is important to note that in our replication, a significant number of responses were returned with the language models (LLMs) refusing to provide an answer. They stated their inability to make human-like decisions due to their AI nature. This phenomenon is particularly prominent in GPT-4 and GPT-3, which are OpenAI's models. We presume that this is a result of OpenAI's ongoing efforts to enhance safety measures and prevent undue anthropomorphism. Nonetheless, this makes a direct comparison between Horton's work and our replication somewhat challenging.
+
+In contrast, the open-source model, Mistral, did not produce no-answers, but it struggled to grasp the nuances conveyed by the persona. Its responses were mostly consistent across different conditions, leaning toward self-maximization, which contradicts Horton's findings based on GPT-3 models.
+
+#### Kahneman, Knetsch, and Thaler (1986)
+
+![Figure 2. A comparison between the original findings reported in Horton's paper (above) and the results of our new replication study (below) for Kahneman, Knetsch, and Thaler (1986).](figure2.png)
+In Horton's original findings for the second study by Kahneman, Knetsch, and Thaler (1986) [7], it was suggested that liberal individuals tend to perceive situations as unfair when the price of an item changes due to unexpected market demand, whereas more conservative individuals are generally more inclined to adopt a neutral or accepting stance. Additionally, the wording of the scenario (changes the price to vs. raises the price to) did not have a significant impact. In our replication, we once again observe that these trends are generally consistent, particularly for GPT-4 and GPT-3 models, and we also see that the wordings did not have a significant impact. However, Mistral exhibits a distinct pattern, focusing predominantly on labeling situations as unfair, without fully considering the nuances conveyed by the persona that describes the political leanings of the respondent whose responses it is simulating.
+
+### Exploratory analyses
+
+The models such as GPT-4, GPT-3, and Mistral, as employed in these studies, simulate collective behavioral patterns. However, is it possible to develop models capable of simulating an individual's viewpoint instead of focusing solely on aggregate-level behavior? 
+
+In my exploratory analyses, I delve into this question by creating a generative agent that represents me. This agent is a Language Model (LM), specifically GPT-4, enhanced with external memory containing information about myself, extracted from an interview transcript where I shared my personal history and viewpoints. Subsequently, I conducted the experiments outlined in this replication study on myself to establish ground truth labels for these tasks. I then had "generative Joon" predict my actual responses. The results indicate that the predictions were generally accurate, although they may occasionally misjudge the extent or degree of my responses.
+
+## Discussion
+
+### Summary of Reproduction Attempt
+Our replication study utilizing OpenAI's GPT-4 and GPT-3 has successfully reproduced the general trends discussed in Horton's exploratory study, which employed Language Models (LLMs) to simulate participants in behavioral studies. However, it's crucial to acknowledge that these models, despite being accessible through the same API, can evolve over time. We observed potential impacts of these changes in some of our findings, where our model declined to provide one of the response options, citing its refusal to make a human decision. While this emphasis on safety and the avoidance of anthropomorphism is a commendable effort by those maintaining these models, it presents a significant challenge when employing them for scientific purposes.
+
+Open-source models, which have gained significant attention recently, offer a potential solution to this issue, as users have complete control over their modifications and updates. However, in our current study, we find that open-source models like Mistral may not sufficiently capture the nuances in human decision-making as derived from persona descriptions. Consequently, we were unable to replicate certain findings using this model.
+
+### Commentary
+It is encouraging to see that the general trends and findings from Horton's studies persist with the latest and arguably most powerful model. However, I anticipate that the role of open-source models will become increasingly important as we grapple with the need for full control over the behavior and versions of these language models to facilitate replicable scientific research.
+
+Furthermore, these aggregate-level findings pose an intriguing challenge when assessing the model's ability to generate human behavior. Namely, is the model replicating these findings because it genuinely generates human behavior in a reliable manner, or is it merely an artifact of having memorized well-known social science studies from its training data? I propose that modeling individuals and benchmarking the model's ability to predict individual responses offers a promising solution to this problem. The fact that "generative Joon" appeared to replicate my behavior in these studies is promising and points towards an exciting new direction for LLM-based social science research.
+
 
 
 ## Work Cited
